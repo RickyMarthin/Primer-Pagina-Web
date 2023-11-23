@@ -29,8 +29,6 @@ app.post("/validar", function(req, res){
     let edad = parseInt(datos.edad);
     let telefono = datos.telefono;
 
-    console.log(typeof(edad))
-
     let registrar = `INSERT INTO paginaWeb.usuarios (nombres, apellidos, correo, edad, telefono) VALUES ('${nombres}', '${apellidos}', '${correo}', ${edad}, '${telefono}')`;
 
     conexion.query(registrar, function(error){
