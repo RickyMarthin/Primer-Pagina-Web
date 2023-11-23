@@ -1,7 +1,6 @@
 {
   "name": "paginaweb",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -21,5 +20,14 @@
   "devDependencies": {
     "@types/mysql": "^2.15.24",
     "nodemon": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickyMarthin/Primer-Pagina-Web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RickyMarthin/Primer-Pagina-Web/issues"
+  },
+  "homepage": "https://github.com/RickyMarthin/Primer-Pagina-Web#readme",
+  "description": ""
 }
